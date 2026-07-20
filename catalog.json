@@ -1,0 +1,1314 @@
+{
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2026-07-20",
+    "classification": "Internal Reference — Source of Truth for Service Offerings",
+    "branding": {
+      "name": "No Limitz",
+      "legalName": "No Limitz LLC",
+      "tagline": "Texas-built. Nationally deployed.",
+      "motto": "Enterprise AI, Web & Cloud — Driven, Not Just Used.",
+      "mission": "Where technical excellence meets human understanding, exponential growth becomes possible.",
+      "founders": [
+        {
+          "name": "Bobby Dean",
+          "role": "Founder"
+        },
+        {
+          "name": "Quenton Dean",
+          "role": "Father / Legacy Engineer"
+        }
+      ],
+      "locations": [
+        "Paradise, TX",
+        "Keller, TX"
+      ],
+      "timezone": "CT (UTC-6 / UTC-5)",
+      "responseTime": "< 1 business day",
+      "availability": "Q3 2026 — open",
+      "contact": {
+        "email": "info@nolimitz.io",
+        "socials": {
+          "github": "https://github.com/no-limitz",
+          "linkedin": "https://www.linkedin.com/company/nolimitzai",
+          "x": "https://x.com/nolimitz_ai"
+        }
+      },
+      "experience": {
+        "combinedYears": "20+",
+        "cloudCertifications": "5+",
+        "certifications": ["AWS", "Azure", "Google Cloud", "Specialized AI/ML"],
+        "enterpriseClients": "Delta Faucet, Tech Mahindra, BORN Group, and other industry leaders"
+      }
+    },
+    "process": {
+      "overview": "From first call to live in ~30 days",
+      "steps": [
+        {
+          "name": "Discover",
+          "timeline": "Day 0",
+          "description": "30-min call. No slides, no NDA needed. We listen, we sketch."
+        },
+        {
+          "name": "Scope",
+          "timeline": "Day 3",
+          "description": "Fixed-price proposal in 3 days. Clear deliverables, clear bounds."
+        },
+        {
+          "name": "Prototype",
+          "timeline": "Week 2",
+          "description": "Something real you can click on by week 2. Real data, real models."
+        },
+        {
+          "name": "Ship",
+          "timeline": "Week 3–4",
+          "description": "Production deploy with monitoring, docs, and handover to your team."
+        }
+      ],
+      "deposit": "50% deposit required to start",
+      "balance": "Remaining balance due on launch",
+      "warranty": "30-day post-launch bug fix window (no new features)"
+    }
+  },
+
+  "services": [
+    {
+      "id": "ai-agents",
+      "name": "AI Agents",
+      "url": "/services/ai-agents",
+      "category": "core",
+      "order": 1,
+      "tagline": "Handle more without hiring more.",
+      "description": "Building and deploying intelligent, autonomous agents — from edge-native personal assistants to multi-agent enterprise orchestration systems. Your team shouldn't be answering the same 40 questions every day — or chasing data between tools manually. We build autonomous agents with real memory, real tools, and real decision logic.",
+      "elevatorPitch": "Autonomous AI that runs 24/7 — no governors, no breaks, no lanes closed.",
+      "subServices": [
+        {
+          "name": "Personal & Edge Agents",
+          "description": "Your own agentic AI — built for you. Edge-native agentic AI deployed on customer infrastructure with real-time inference and minimal latency.",
+          "platforms": ["OpenClaw", "Hermes Agent", "Anthropic Claude"],
+          "deliverables": [
+            "Personal AI assistant deployed on your own infrastructure",
+            "Edge-first agents with sub-second response times",
+            "Custom system prompts, memory, and tool integrations",
+            "Model Context Protocol (MCP) integrations for your business",
+            "Private, secure — your data never leaves your environment"
+          ]
+        },
+        {
+          "name": "Agentic Architecture & Hosting",
+          "description": "Deploy agents that actually scale. Moving from an AI prototype to production-grade agentic systems requires serious infrastructure thinking.",
+          "platforms": ["Agentfield.ai", "AWS Bedrock & Agents", "Cloudflare Workers AI"],
+          "deliverables": [
+            "Multi-agent orchestration design and deployment",
+            "Serverless agent hosting with auto-scaling",
+            "Tool-use pipelines with memory and state management",
+            "AI observability, logging, and cost management",
+            "Hybrid on-premise/cloud agentic architectures"
+          ]
+        },
+        {
+          "name": "AI Upskilling & Coaching",
+          "description": "We are your human in the loop. Agentic AI is not replacing people — it is amplifying them.",
+          "platforms": ["Executive AI Fluency", "Developer Upskilling", "Business Leader Workshops"],
+          "deliverables": [
+            "1-on-1 executive AI coaching sessions",
+            "Team workshops on agentic AI use cases",
+            "Custom learning paths by role and industry",
+            "Hands-on labs building real agents together",
+            "Ongoing advisory as your AI stack evolves"
+          ]
+        }
+      ],
+      "platforms": [
+        "OpenClaw",
+        "Hermes Agent",
+        "Anthropic Claude",
+        "Agentfield.ai",
+        "AWS Bedrock",
+        "Cloudflare Workers AI"
+      ],
+      "models": [
+        "Anthropic Claude (Sonnet)",
+        "Anthropic Claude (Opus)",
+        "Cloudflare Workers AI",
+        "Locally-hosted open models"
+      ],
+      "capabilities": [
+        "MCP (Model Context Protocol) integrations for tool-use",
+        "Human-in-the-Loop (HITL) design patterns",
+        "Edge-first agent architecture",
+        "Model-agnostic approach — Claude is primary, but multi-model capable",
+        "Open-source + proprietary platform expertise",
+        "Multi-agent orchestration",
+        "Serverless inference pipelines",
+        "Tool-use chaining and workflow automation",
+        "Real-time inference with minimal latency",
+        "Local-first compute — data stays where it belongs"
+      ],
+      "keyDifferentiators": [
+        "We build what we sell — OpenClaw, Hermes Agent, and internal tooling all running in production",
+        "Platform-native, not platform-agnostic — deep expertise in Cloudflare, AWS, and Agentfield.ai",
+        "Human in the Loop — we stay engaged from architecture review to coaching calls to live deployments",
+        "Bold ambition, grounded execution — every engagement ends with something deployed and working"
+      ]
+    },
+    {
+      "id": "app-development",
+      "name": "App Development",
+      "url": "/services/app-development",
+      "category": "core",
+      "order": 2,
+      "tagline": "From idea to shipped — on a schedule that compounds.",
+      "description": "You've got the idea — maybe even a prototype, or a legacy WordPress or Drupal site that needs modernization. We take it the rest of the way: secure auth, real database, clean deployment, and AI baked in from day one. Fast to launch. Built to last. You own the code — and the next one ships faster.",
+      "elevatorPitch": "Custom software at factory speed — built, shipped, and yours to own.",
+      "subServices": [
+        {
+          "name": "Localhost to Production",
+          "description": "You vibe coded it. We ship it. Vibe-coded prototypes (Cursor, Claude Code, Replit) → production-ready software.",
+          "deliverables": [
+            "Production hardening — auth, HTTPS, environment secrets, rate limiting, error handling",
+            "Deployment & hosting setup (Cloudflare Pages, Vercel, AWS) with CI/CD",
+            "Database & state setup (Supabase, PlanetScale, D1)",
+            "Security audit for vulnerabilities — injection, XSS, exposed keys, broken auth",
+            "Code review and architectural hardening"
+          ]
+        },
+        {
+          "name": "Website Modernization",
+          "description": "Your website, rebuilt for 2026. From WordPress or legacy PHP to Next.js, TypeScript, and edge-optimized hosting — without losing your SEO or your content.",
+          "deliverables": [
+            "Modern stack migration (WordPress/legacy PHP → Next.js/TypeScript/edge)",
+            "SEO preservation and content migration",
+            "Performance optimization — Core Web Vitals, image optimization, lazy loading, edge caching",
+            "Design refresh with Tailwind, shadcn/ui, and modern component libraries",
+            "AI feature integration — search, recommendations, personalization"
+          ]
+        },
+        {
+          "name": "Custom App Development",
+          "description": "Features that fit your budget. Architecture that scales. Integration-first design with AI-powered features from the start.",
+          "deliverables": [
+            "Integration-first design — Stripe, Zapier, HubSpot, Slack, CRM, ERP",
+            "AI-powered features — Claude integration, MCP integrations, agentic workflows",
+            "Customer engagement — smart onboarding, in-app notifications, personalized dashboards",
+            "Scalable architecture — serverless, edge computing, managed databases",
+            "API design, database modeling, authentication, payments"
+          ]
+        }
+      ],
+      "platforms": [
+        "Next.js 15",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "Cloudflare D1",
+        "Prisma ORM",
+        "tRPC",
+        "Cloudflare Pages",
+        "Vercel",
+        "AWS",
+        "Docker",
+        "Clerk",
+        "Auth.js",
+        "Stripe",
+        "Paddle",
+        "Zapier",
+        "HubSpot",
+        "Slack",
+        "Langfuse"
+      ],
+      "capabilities": [
+        "Vibe-coded prototype to production",
+        "CI/CD pipeline setup",
+        "Testing, monitoring, and deployment infrastructure",
+        "Legacy to modern stack migration",
+        "SEO preservation during migration",
+        "Core Web Vitals optimization",
+        "AI feature integration",
+        "API integration (payment, CRM, marketing, notification)",
+        "Scalable architecture for growth (10 users to 10,000)",
+        "Responsive design across devices",
+        "Source code delivered (hosted by us or client)"
+      ]
+    },
+    {
+      "id": "cloud-infrastructure",
+      "name": "Cloud & Infrastructure",
+      "url": "/services/cloud-infrastructure",
+      "category": "core",
+      "order": 3,
+      "tagline": "Cloud infrastructure with the lights always on.",
+      "description": "AWS bills nobody can explain. Deploys your team is scared to touch. We build cloud setups that are observable, cost-aware, and documented well enough that you're not dependent on us to keep the lights on. Enterprise-grade reliability without technical headaches.",
+      "elevatorPitch": "A power grid for your stack — always on, observable, built to scale.",
+      "subServices": [
+        {
+          "name": "Hosted Compute",
+          "description": "Virtual servers that scale automatically with auto-scaling capabilities, load balancing, and intelligent resource allocation.",
+          "deliverables": [
+            "Auto-scaling compute",
+            "Load balancing",
+            "Custom server configurations",
+            "Multi-region deployment"
+          ]
+        },
+        {
+          "name": "Cloud Storage",
+          "description": "Unlimited digital filing cabinets with secure, scalable storage solutions, automated backups, version control, and global accessibility.",
+          "deliverables": [
+            "Unlimited storage",
+            "Automated backups",
+            "Version control",
+            "Global CDN integration"
+          ]
+        },
+        {
+          "name": "Managed Databases",
+          "description": "Smart digital organizers for business data with managed database solutions, automatic scaling, backups, and performance optimization.",
+          "deliverables": [
+            "Managed databases",
+            "Auto-scaling",
+            "Automated backups",
+            "Performance optimization"
+          ]
+        },
+        {
+          "name": "Smart AI Assistant",
+          "description": "Access every major AI model via OpenRouter integration with cost optimization and usage analytics.",
+          "deliverables": [
+            "Every major AI model access",
+            "Cost optimization",
+            "API management",
+            "Usage analytics"
+          ]
+        },
+        {
+          "name": "Serverless Operations",
+          "description": "Code that runs automatically when needed — event-driven computing that scales to zero when not in use.",
+          "deliverables": [
+            "Event-driven scaling",
+            "Zero-cost idle time",
+            "Instant scaling",
+            "No server management"
+          ]
+        },
+        {
+          "name": "Hybrid Cloud",
+          "description": "Seamlessly integrate on-premise systems with modern cloud infrastructure for legacy bridging.",
+          "deliverables": [
+            "Legacy system integration and bridging",
+            "API gateways and data synchronization",
+            "Security and compliance architecture",
+            "Multi-cloud strategy and governance",
+            "Disaster recovery",
+            "Regulatory compliance"
+          ]
+        }
+      ],
+      "platforms": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "DigitalOcean",
+        "Cloudflare",
+        "Terraform",
+        "OpenRouter"
+      ],
+      "capabilities": [
+        "Standalone and hosted compute",
+        "Auto-scaling infrastructure",
+        "Load balancing",
+        "Multi-region deployment",
+        "Global CDN",
+        "SSD storage",
+        "Smart caching",
+        "High-availability architecture",
+        "Automated backups",
+        "SSL certificates",
+        "DDoS protection",
+        "Pay-as-you-grow pricing",
+        "Usage analytics and cost optimization",
+        "Legacy system integration",
+        "Compliance-ready architecture",
+        "Vendor independence"
+      ],
+      "stagedOfferings": [
+        {
+          "level": "solo",
+          "profile": "Solo Entrepreneur",
+          "description": "Right-sized for one builder. Perfect for individuals and small projects just getting started.",
+          "features": [
+            "Basic hosting",
+            "SSL certificates",
+            "Email setup",
+            "Basic monitoring",
+            "Support via email"
+          ]
+        },
+        {
+          "level": "growing",
+          "profile": "Growing Business",
+          "description": "Right-sized for small teams. Ideal for small teams and growing businesses that need reliable, scalable infrastructure.",
+          "features": [
+            "Auto-scaling",
+            "Load balancing",
+            "Advanced monitoring",
+            "Database management",
+            "24/7 support"
+          ]
+        },
+        {
+          "level": "established",
+          "profile": "Established Company",
+          "description": "Right-sized for complex needs. Comprehensive solutions for established companies with complex infrastructure.",
+          "features": [
+            "Multi-region deployment",
+            "Advanced security",
+            "DevOps automation",
+            "Custom integrations",
+            "Dedicated support"
+          ]
+        },
+        {
+          "level": "enterprise",
+          "profile": "Enterprise Scale",
+          "description": "Right-sized for enterprise. Enterprise-grade infrastructure with unlimited scaling and premium support.",
+          "features": [
+            "Global infrastructure",
+            "Enterprise security",
+            "Custom SLAs",
+            "White-glove service",
+            "Dedicated team"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-strategy",
+      "name": "AI Strategy & Custom ML",
+      "url": "/services/ai-strategy",
+      "category": "core",
+      "order": 4,
+      "tagline": "Summit-level clarity. No POC graveyard.",
+      "description": "Most AI initiatives stall because nobody knows what to build first. We map the AI landscape from altitude — what to prioritize, what to skip, what it costs, and what it saves. Concrete bets, not a deck that collects dust.",
+      "elevatorPitch": "Summit-level clarity on what to build, what to skip, and what each move costs.",
+      "subServices": [
+        {
+          "name": "AI Strategy Consulting",
+          "description": "A structured 6-stage process from identifying the right problem to deploying AI that runs in production.",
+          "process": [
+            {
+              "stage": 1,
+              "name": "Identify",
+              "description": "Surface the highest-impact use cases for your business. Business assessment, opportunity analysis, ROI estimation, and feasibility studies."
+            },
+            {
+              "stage": 2,
+              "name": "Hypothesis",
+              "description": "Define what AI can and cannot do for each use case. Problem definition, success metrics, assumption validation, and approach planning."
+            },
+            {
+              "stage": 3,
+              "name": "Data",
+              "description": "Assess data readiness, quality, and architecture. Data collection, quality assessment, exploratory analysis, and preparation workflows."
+            },
+            {
+              "stage": 4,
+              "name": "Build",
+              "description": "Prototype development and technical validation. Model selection, training, validation, and performance optimization."
+            },
+            {
+              "stage": 5,
+              "name": "Train",
+              "description": "Model training, fine-tuning, and evaluation. Hyperparameter tuning, cross-validation, performance testing, and bias detection."
+            },
+            {
+              "stage": 6,
+              "name": "Deploy",
+              "description": "Production deployment, monitoring, and iteration. Production deployment, monitoring systems, scaling infrastructure, and ongoing optimization."
+            }
+          ]
+        },
+        {
+          "name": "Custom ML Models",
+          "description": "Purpose-built machine learning models designed for your specific industry and business challenges.",
+          "deliverables": [
+            "Predictive analytics",
+            "Fraud detection systems",
+            "Quality control and computer vision",
+            "Risk assessment models"
+          ]
+        },
+        {
+          "name": "Document & Data Processing",
+          "description": "Transform unstructured documents into actionable insights with intelligent processing and extraction.",
+          "deliverables": [
+            "Contract analysis and extraction",
+            "Invoice and receipt processing",
+            "Legal document review",
+            "Medical document processing"
+          ]
+        },
+        {
+          "name": "Intelligent Agents & Automation",
+          "description": "AI agents that automate complex workflows and decision-making processes across your business.",
+          "deliverables": [
+            "Customer service automation",
+            "Process optimization agents",
+            "Decision support systems"
+          ]
+        },
+        {
+          "name": "Predictive Analytics",
+          "description": "Forecast trends, anticipate problems, and make data-driven decisions with advanced analytics.",
+          "deliverables": [
+            "Sales forecasting",
+            "Demand planning",
+            "Market analysis and trend identification"
+          ]
+        },
+        {
+          "name": "Search & Knowledge Mining",
+          "description": "Extract valuable insights from data repositories and enable intelligent search capabilities.",
+          "deliverables": [
+            "Enterprise search implementation",
+            "Knowledge graph creation",
+            "Content discovery and recommendation"
+          ]
+        }
+      ],
+      "platforms": [
+        "OpenAI (GPT-4o, o1)",
+        "Anthropic (Claude)",
+        "Google (Gemini)",
+        "Meta (Llama)",
+        "CrewAI",
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "AWS Bedrock",
+        "MCP Servers",
+        "Local AI deployments"
+      ],
+      "capabilities": [
+        "ROI-first AI strategy (start small, scale what delivers)",
+        "POC to production without the detour",
+        "Every model available — local or cloud, your call",
+        "Custom ML when foundation models aren't enough",
+        "Document & data processing",
+        "Intelligent agents and automation",
+        "Predictive analytics",
+        "Search & knowledge mining",
+        "Multi-model approach",
+        "On-premise / air-gapped deployments",
+        "Enterprise deployment at scale"
+      ]
+    }
+  ],
+
+  "products": [
+    {
+      "id": "wavemaker",
+      "name": "WaveMaker Podcast Studio",
+      "type": "SaaS",
+      "status": "live",
+      "featured": true,
+      "url": "https://wavemaker.bigripple.ai",
+      "category": "studio",
+      "description": "AI-powered podcast production, editing, and distribution in one platform.",
+      "tagline": "Ship faster. From raw audio to published episodes in minutes.",
+      "features": [
+        "Auto-editing & mastering",
+        "Chapter generation",
+        "Multi-platform distribution",
+        "AI transcription",
+        "Social clip generation"
+      ],
+      "capabilities": [
+        "From raw audio to published episodes in minutes",
+        "AI handles transcription, editing, chapters, and social clips automatically",
+        "End-to-end podcast production pipeline"
+      ],
+      "proves": "Audio processing, AI automation, end-to-end product delivery"
+    },
+    {
+      "id": "bigripple",
+      "name": "BigRipple AI Marketing Platform",
+      "type": "SaaS",
+      "status": "coming-soon",
+      "featured": false,
+      "url": "https://bigripple.ai",
+      "category": "studio",
+      "description": "AI agents for content, campaigns, and customer outreach at scale.",
+      "tagline": "Scale your reach. AI agents manage campaigns, personalize outreach, and optimize conversions.",
+      "features": [
+        "Multi-channel campaigns",
+        "AI copywriting",
+        "Real-time analytics",
+        "AI content generation for blogs, social media, emails, and ads",
+        "Campaign management with visual timelines",
+        "Approval workflows and A/B testing",
+        "Social publishing to Facebook, Instagram, LinkedIn, and X",
+        "Multi-tenant architecture"
+      ],
+      "capabilities": [
+        "AI-powered content generation across channels",
+        "Campaign planning and execution",
+        "Social media publishing from a single dashboard",
+        "Team and agency scalability",
+        "Brand voice preservation"
+      ],
+      "proves": "Marketing automation and multi-agent workflows"
+    },
+    {
+      "id": "our-community-spot",
+      "name": "Our Community Spot",
+      "type": "SaaS",
+      "status": "live",
+      "featured": false,
+      "url": "https://ourcommunityspot.com",
+      "category": "studio",
+      "description": "Modern HOA management — communications, voting, events, and documents in one place.",
+      "tagline": "Bring your HOA online. Replace email chains and paper packets.",
+      "features": [
+        "Announcements & messaging",
+        "Events & RSVPs",
+        "Digital voting & document library",
+        "Communications hub",
+        "Document management",
+        "Event planning",
+        "Resident directory",
+        "Customized look and feel",
+        "Mobile-first design",
+        "Privacy and security controls"
+      ],
+      "capabilities": [
+        "Unified hub for HOA boards, community managers, and residents",
+        "Mobile-first resident experience across all devices",
+        "Announcements, event calendars, digital voting, shared document library",
+        "Multi-tenant SaaS architecture",
+        "Admin and resident dashboards",
+        "Action forms and document lifecycle management"
+      ],
+      "techStack": ["Next.js", "TypeScript", "Postgres", "Stripe", "Cloudflare"],
+      "promotions": [
+        {
+          "description": "100% OFF — Get 3 months FREE when you sign up before July 31, 2026",
+          "code": "SOFTLAUNCH",
+          "endDate": "2026-07-31"
+        }
+      ],
+      "proves": "Community-facing product development and multi-tenant architecture"
+    },
+    {
+      "id": "agentic-software-engineering-team",
+      "name": "Agentic Software Engineering Team",
+      "type": "Service",
+      "status": "live",
+      "featured": true,
+      "url": null,
+      "category": "studio",
+      "description": "Autonomous agents that plan, code, test, and ship features end-to-end.",
+      "tagline": "Replace hours of manual development with autonomous AI teams.",
+      "features": [
+        "End-to-end planning & execution",
+        "Code review & testing included",
+        "Natural language specifications"
+      ],
+      "capabilities": [
+        "Autonomous agents understand your codebase",
+        "Make intelligent development decisions",
+        "Ship production-ready features",
+        "Natural language to deployed code pipeline"
+      ],
+      "proves": "We build and use our own AI dev teams, not just sell the idea"
+    },
+    {
+      "id": "claude-certified-architect-study-cast",
+      "name": "Claude Certified Architect Study Cast",
+      "type": "Podcast",
+      "status": "live",
+      "featured": true,
+      "url": "https://wavemaker.bigripple.ai/shows/nolimitz-podcast",
+      "category": "studio",
+      "description": "Eight episodes. One exam. Every domain of the Claude Certified Architect – Foundations exam.",
+      "tagline": "A real-world technical architect walks through every domain — built for builders studying out loud.",
+      "details": "Scenario-based, honest, built using Claude in our own studio.",
+      "episodes": 8,
+      "examDomains": [
+        "Agentic architecture",
+        "Tool design",
+        "MCP (Model Context Protocol)",
+        "Claude Code",
+        "Prompt engineering",
+        "Context",
+        "Reliability"
+      ],
+      "platforms": [
+        "Spotify",
+        "Apple Podcasts",
+        "RSS"
+      ],
+      "proves": "Audio production, content creation, audience growth with our own stack"
+    },
+    {
+      "id": "personal-agentic-assistant",
+      "name": "Personal Agentic Assistant",
+      "type": "Service",
+      "status": "live",
+      "featured": false,
+      "url": null,
+      "category": "solutions",
+      "description": "Configuration and support for individuals building their own AI workflows.",
+      "tagline": "Build personalized AI workflows without coding.",
+      "features": [
+        "No code required",
+        "Pre-built templates",
+        "24/7 support"
+      ],
+      "capabilities": [
+        "Set up automations, integrations, and custom agents",
+        "Personalized AI workflows",
+        "Configuration and ongoing support"
+      ]
+    }
+  ],
+
+  "pricing": {
+    "webApps": {
+      "description": "Fixed pricing per project. AI-assisted development. Fast turnaround. No bloat, no surprises.",
+      "referenceProjects": [
+        "dtvalveandsupply.com",
+        "reclaimgarage.com",
+        "wfarc.org"
+      ],
+      "tiers": [
+        {
+          "name": "Tier 1 — Essential Site",
+          "level": 1,
+          "price": {
+            "min": 850,
+            "max": 1100,
+            "currency": "USD",
+            "type": "fixed"
+          },
+          "turnaround": "1–2 weeks",
+          "description": "A simple, clean, online presence. Good for businesses that need to look legitimate and be found.",
+          "included": [
+            "Single-page or 3–5 page static site (Home, About, Services, Contact)",
+            "Responsive design (mobile, tablet, desktop)",
+            "Contact form with email routing",
+            "Basic on-page SEO (title tags, meta descriptions, structured data)",
+            "Google Maps / location embed",
+            "Fast load times (optimized assets, minimal code)",
+            "Out-of-the-box design pattern — clean, modern, no custom hand-holding"
+          ],
+          "idealFor": [
+            "Small service businesses (plumbers, contractors, cleaners)",
+            "Local businesses (restaurants, shops, salons)",
+            "Solo professionals (realtors, coaches, consultants)",
+            "Businesses that need a landing page fast"
+          ],
+          "notIncluded": [
+            "CMS / content management",
+            "Blog or news section",
+            "Custom illustrations, photography, or video",
+            "E-commerce / payment processing",
+            "Membership or user accounts",
+            "Content writing or copy"
+          ],
+          "addOns": [
+            {
+              "name": "Additional pages (beyond 5)",
+              "price": 200,
+              "unit": "per page"
+            },
+            {
+              "name": "Additional contact form or redirect",
+              "price": 75,
+              "unit": "flat"
+            },
+            {
+              "name": "Analytics setup (GA4, Plausible)",
+              "price": 100,
+              "unit": "flat"
+            },
+            {
+              "name": "Advanced SEO (keyword research, schema audit)",
+              "price": 300,
+              "unit": "flat"
+            },
+            {
+              "name": "Content writing (all pages)",
+              "price": { "min": 250, "max": 500 },
+              "unit": "flat"
+            },
+            {
+              "name": "Logo / brand refresh",
+              "price": { "min": 150, "max": 400 },
+              "unit": "flat"
+            },
+            {
+              "name": "Performance hardening (Lighthouse 100)",
+              "price": { "min": 150, "max": 300 },
+              "unit": "flat"
+            },
+            {
+              "name": "Domain setup / DNS configuration",
+              "price": 75,
+              "unit": "flat"
+            },
+            {
+              "name": "Hosting setup and configuration (1 year)",
+              "price": { "setup": 150, "note": "plus hosting costs" },
+              "unit": "flat"
+            },
+            {
+              "name": "Chatbot / AI Contact Assistant",
+              "price": { "setup": 500, "annual": 100 },
+              "unit": "setup + annual"
+            }
+          ]
+        },
+        {
+          "name": "Tier 2 — Content Site",
+          "level": 2,
+          "price": {
+            "min": 1500,
+            "max": 1800,
+            "currency": "USD",
+            "type": "fixed"
+          },
+          "turnaround": "1–2 weeks",
+          "description": "Same as Essential, but with a CMS so the client can update their own content without touching code.",
+          "includesTier1": true,
+          "included": [
+            "Headless or integrated CMS for content management",
+            "Blog / news section with RSS",
+            "Dynamic content areas (promotions, events, announcements)",
+            "Admin dashboard for non-technical users",
+            "Media library for images/documents",
+            "Role-based editing access (optional)",
+            "Content migration from existing site (if applicable, up to 5 pages)"
+          ],
+          "idealFor": [
+            "Businesses that update content regularly",
+            "Event organizers and conference sites",
+            "Service providers with changing offerings/pricing",
+            "Organizations that publish news, articles, or updates"
+          ],
+          "notIncluded": [
+            "E-commerce / payment processing",
+            "Membership or user management",
+            "Custom API integrations beyond standard CMS hooks",
+            "Content writing or copy",
+            "Content migration beyond 5 pages"
+          ],
+          "addOns": [
+            {
+              "name": "Additional CMS collections (beyond blog/news)",
+              "price": 150,
+              "unit": "per collection"
+            },
+            {
+              "name": "Custom content types with unique layouts",
+              "price": { "min": 250, "max": 500 },
+              "unit": "flat"
+            },
+            {
+              "name": "Content writing (all pages + 5 blog posts)",
+              "price": { "min": 500, "max": 1000 },
+              "unit": "flat"
+            },
+            {
+              "name": "Multi-language support",
+              "price": { "min": 300, "max": 600 },
+              "unit": "flat"
+            },
+            {
+              "name": "Advanced SEO (keyword research, schema audit)",
+              "price": 400,
+              "unit": "flat"
+            },
+            {
+              "name": "Analytics + dashboard (GA4, Looker Studio)",
+              "price": { "min": 200, "max": 400 },
+              "unit": "flat"
+            },
+            {
+              "name": "Performance hardening (Lighthouse 100)",
+              "price": { "min": 200, "max": 400 },
+              "unit": "flat"
+            },
+            {
+              "name": "Domain setup / DNS configuration",
+              "price": 75,
+              "unit": "flat"
+            },
+            {
+              "name": "Hosting setup and configuration (1 year)",
+              "price": { "setup": 150, "note": "plus hosting costs" },
+              "unit": "flat"
+            }
+          ]
+        },
+        {
+          "name": "Tier 3 — Web Application",
+          "level": 3,
+          "price": {
+            "startingAt": 4000,
+            "currency": "USD",
+            "type": "custom",
+            "note": "Custom quote after scoping call"
+          },
+          "turnaround": "Custom",
+          "description": "Custom web functionality for organizations that need more than a marketing site. Not a SaaS product — a tailored tool for a specific community or group.",
+          "included": [
+            "Multi-section site with rich content",
+            "Calendar, events, or schedule system",
+            "Photo / media galleries",
+            "Member integration (third-party auth: Discord, Google, Facebook — we do not build auth from scratch)",
+            "Dynamic content sections: news feed, weather/emergency alerts, repeater widgets",
+            "Custom UI components for client-specific needs",
+            "Custom API integrations (data fetching from external services, calendars, feeds)",
+            "Responsive design and branding alignment",
+            "Admin/content management layer appropriate to scope"
+          ],
+          "idealFor": [
+            "Nonprofits and community organizations",
+            "Membership clubs, associations, fraternities/sororities",
+            "Churches, religious organizations",
+            "Local government / school sites",
+            "Sports leagues, athletic clubs",
+            "Any org with members, events, or public content"
+          ],
+          "notIncluded": [
+            "Building custom authentication systems from scratch",
+            "Full e-commerce / payment processing (Stripe/Paddle integrations available as separate scope)",
+            "Native mobile apps",
+            "Customer support / helpdesk features",
+            "Ongoing content creation or moderate user-generated content",
+            "Data migration from legacy systems (beyond reasonable effort)"
+          ],
+          "addOns": [
+            {
+              "name": "Complex custom API integrations (beyond base scope)",
+              "price": { "min": 500, "max": 1500 },
+              "unit": "flat"
+            },
+            {
+              "name": "User dashboard / member portal",
+              "price": { "min": 500, "max": 2000 },
+              "unit": "flat"
+            },
+            {
+              "name": "Payment / donation integration",
+              "price": { "min": 300, "max": 800 },
+              "unit": "flat"
+            },
+            {
+              "name": "Email / SMS notifications via API",
+              "price": { "min": 250, "max": 500 },
+              "unit": "flat"
+            },
+            {
+              "name": "Custom animations / micro-interactions",
+              "price": { "min": 200, "max": 600 },
+              "unit": "flat"
+            },
+            {
+              "name": "Content writing (site copy + 10 posts/resources)",
+              "price": { "min": 750, "max": 1500 },
+              "unit": "flat"
+            },
+            {
+              "name": "Multi-language support",
+              "price": { "min": 500, "max": 1000 },
+              "unit": "flat"
+            },
+            {
+              "name": "Performance hardening (Lighthouse 100)",
+              "price": { "min": 300, "max": 600 },
+              "unit": "flat"
+            },
+            {
+              "name": "Domain setup / DNS configuration",
+              "price": 75,
+              "unit": "flat"
+            },
+            {
+              "name": "Hosting setup and configuration (1 year)",
+              "price": { "setup": 200, "note": "plus hosting costs" },
+              "unit": "flat"
+            }
+          ]
+        }
+      ],
+      "commonToAllTiers": [
+        "Clean, production-ready code",
+        "Responsive design across devices",
+        "Source code delivered (hosted by us or client)",
+        "Basic documentation",
+        "30-day post-launch bug fix window (no new features)",
+        "Maximum 2 revision rounds per major section beyond initial scope",
+        "Customer provides all content (copy, images, logo) unless add-on is purchased",
+        "Third-party service accounts (email, analytics, payment processors) provided by customer"
+      ],
+      "comparison": {
+        "tiers": {
+          "tier1": {
+            "nolimitz": "$850–$1,100",
+            "typicalAgency": "$2,000–$5,000",
+            "freelancer": "$500–$2,000"
+          },
+          "tier2": {
+            "nolimitz": "$1,500–$1,800",
+            "typicalAgency": "$3,000–$8,000",
+            "freelancer": "$1,000–$4,000"
+          },
+          "tier3": {
+            "nolimitz": "$4,000+",
+            "typicalAgency": "$10,000–$25,000+",
+            "freelancer": "$3,000–$10,000"
+          }
+        },
+        "turnaround": {
+          "nolimitz": "1–2 weeks",
+          "typicalAgency": "4–8 weeks",
+          "freelancer": "2–6 weeks"
+        },
+        "process": {
+          "nolimitz": "AI-assisted, direct dev",
+          "typicalAgency": "Account manager → designer → dev → QA",
+          "freelancer": "One person wearing all hats"
+        },
+        "communication": {
+          "nolimitz": "Direct with developer",
+          "typicalAgency": "Multiple touchpoints",
+          "freelancer": "Direct, but bandwidth-limited"
+        },
+        "codeOwnership": "Full, delivered to you"
+      }
+    }
+  },
+
+  "hosting": {
+    "description": "Monthly hosted maintenance plans. We handle hosting, monitoring, updates, backups, and performance. You just own the site — we keep it running.",
+    "plans": [
+      {
+        "name": "Basic",
+        "monthlyPrice": 50,
+        "currency": "USD",
+        "features": [
+          "Hosting",
+          "SSL certificate",
+          "99.9% uptime monitoring",
+          "Automated daily backups",
+          "Security patching"
+        ],
+        "target": "Small sites that need reliable hosting"
+      },
+      {
+        "name": "Performance",
+        "monthlyPrice": 75,
+        "currency": "USD",
+        "features": [
+          "All Basic features",
+          "Analytics dashboard (GA4 or Plausible)",
+          "Core Web Vitals monitoring",
+          "Error tracking",
+          "CDN optimization"
+        ],
+        "target": "Sites that need visibility into performance"
+      },
+      {
+        "name": "Managed",
+        "monthlyPrice": 150,
+        "currency": "USD",
+        "features": [
+          "All Performance features",
+          "Monthly content updates (up to 2 hours of changes)",
+          "Uptime/status page",
+          "Log monitoring",
+          "Quarterly performance review",
+          "Priority support"
+        ],
+        "target": "Businesses that want hands-off site maintenance"
+      }
+    ],
+    "addOns": [
+      {
+        "name": "Chatbot / AI Contact Assistant",
+        "setup": 500,
+        "annual": 100,
+        "type": "one-time + annual"
+      },
+      {
+        "name": "Analytics setup (GA4, Plausible, Looker Studio dashboard)",
+        "setup": 100,
+        "annual": 0,
+        "type": "one-time"
+      },
+      {
+        "name": "Error monitoring (Sentry, LogRocket) setup",
+        "setup": 75,
+        "annual": 0,
+        "type": "one-time"
+      },
+      {
+        "name": "Weekly/monthly content updates",
+        "setup": 0,
+        "hourlyRate": { "min": 25, "max": 50 },
+        "type": "hourly beyond Managed plan"
+      },
+      {
+        "name": "SEO monitoring (rank tracking, broken link alerts, sitemap maintenance)",
+        "setup": 0,
+        "monthly": 50,
+        "type": "monthly"
+      },
+      {
+        "name": "Uptime/status page (custom status domain, public badge embed)",
+        "setup": 0,
+        "monthly": 25,
+        "type": "monthly"
+      },
+      {
+        "name": "Email hosting setup (Google Workspace, Microsoft 365)",
+        "setup": 150,
+        "annual": 0,
+        "type": "one-time"
+      }
+    ],
+    "chatbot": {
+      "description": "A smart website chatbot that answers common questions using the company's own FAQ docs and service information as grounding data. Keeps prospects engaged 24/7 without manual support.",
+      "setupPrice": 500,
+      "annualPrice": 100,
+      "included": [
+        "Knowledge base built from company-provided FAQ, service descriptions, and key business information",
+        "Natural conversation flow — answers are grounded only in provided documents, no hallucinated claims",
+        "Spam/bot prevention (rate limiting, abuse controls)",
+        "Generous token allocation for sustained conversation volume",
+        "Branded UI, positioned as a contact assistant on the website",
+        "Escalation to human: 'Want to schedule a call?' — redirects to contact form",
+        "No ongoing maintenance required for the core experience"
+      ],
+      "idealFor": "Service businesses, agencies, contractors, nonprofits — anyone who gets the same questions over and over and wants to filter serious leads from casual browsers"
+    },
+    "selfHosted": {
+      "available": true,
+      "includes": [
+        "Deployment scripts and documentation",
+        "Initial infrastructure setup ($200 one-time, if desired)",
+        "No ongoing monitoring or update responsibility"
+      ]
+    }
+  },
+
+  "addOns": [
+    {
+      "name": "Additional pages (beyond 5 in Tier 1)",
+      "serviceCategory": "web-apps",
+      "price": 200,
+      "unit": "per page"
+    },
+    {
+      "name": "Additional contact form or redirect",
+      "serviceCategory": "web-apps",
+      "price": 75,
+      "unit": "flat"
+    },
+    {
+      "name": "Analytics setup",
+      "serviceCategory": "web-apps",
+      "price": 100,
+      "unit": "flat"
+    },
+    {
+      "name": "Advanced SEO",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 300, "max": 400 },
+      "description": "Keyword research, schema audit"
+    },
+    {
+      "name": "Content writing",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 250, "max": 1500 },
+      "description": "Varies by tier and scope. Site copy + blog posts/resources."
+    },
+    {
+      "name": "Logo / brand refresh",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 150, "max": 400 },
+      "unit": "flat"
+    },
+    {
+      "name": "Performance hardening (Lighthouse 100)",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 150, "max": 600 },
+      "description": "Varies by tier"
+    },
+    {
+      "name": "Domain setup / DNS configuration",
+      "serviceCategory": "web-apps",
+      "price": 75,
+      "unit": "flat"
+    },
+    {
+      "name": "Hosting setup and configuration (1 year)",
+      "serviceCategory": "web-apps",
+      "priceRange": { "setup": 150, "note": "plus hosting costs" },
+      "description": "Tier 1–2: $150 setup, Tier 3: $200 setup"
+    },
+    {
+      "name": "Chatbot / AI Contact Assistant",
+      "serviceCategory": "web-apps",
+      "price": { "setup": 500, "annual": 100 },
+      "description": "Smart website chatbot grounded in company's own content"
+    },
+    {
+      "name": "Custom content types with unique layouts",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 250, "max": 500 },
+      "unit": "flat"
+    },
+    {
+      "name": "CMS collections (beyond blog/news)",
+      "serviceCategory": "web-apps",
+      "price": 150,
+      "unit": "per collection"
+    },
+    {
+      "name": "Multi-language support",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 300, "max": 1000 },
+      "description": "Varies by tier"
+    },
+    {
+      "name": "User dashboard / member portal",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 500, "max": 2000 },
+      "unit": "flat"
+    },
+    {
+      "name": "Payment / donation integration",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 300, "max": 800 },
+      "unit": "flat"
+    },
+    {
+      "name": "Email / SMS notifications via API",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 250, "max": 500 },
+      "unit": "flat"
+    },
+    {
+      "name": "Custom animations / micro-interactions",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 200, "max": 600 },
+      "unit": "flat"
+    },
+    {
+      "name": "Complex custom API integrations",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 500, "max": 1500 },
+      "unit": "flat"
+    },
+    {
+      "name": "Analytics + dashboard (GA4, Looker Studio)",
+      "serviceCategory": "web-apps",
+      "priceRange": { "min": 200, "max": 400 },
+      "unit": "flat"
+    },
+    {
+      "name": "SEO monitoring",
+      "serviceCategory": "hosting",
+      "price": 50,
+      "unit": "monthly"
+    },
+    {
+      "name": "Uptime/status page",
+      "serviceCategory": "hosting",
+      "price": 25,
+      "unit": "monthly"
+    },
+    {
+      "name": "Error monitoring setup (Sentry, LogRocket)",
+      "serviceCategory": "hosting",
+      "price": 75,
+      "unit": "one-time"
+    },
+    {
+      "name": "Email hosting setup (Google Workspace, Microsoft 365)",
+      "serviceCategory": "hosting",
+      "price": 150,
+      "unit": "one-time"
+    },
+    {
+      "name": "Content updates (beyond Managed plan hours)",
+      "serviceCategory": "hosting",
+      "hourlyRate": { "min": 25, "max": 50 },
+      "unit": "hourly"
+    }
+  ],
+
+  "chatbotPricing": {
+    "aiContactAssistant": {
+      "name": "Chatbot / AI Contact Assistant",
+      "setupPrice": 500,
+      "annualPrice": 100,
+      "description": "Smart website chatbot that answers common questions using the company's own FAQ docs and service information as grounding data.",
+      "pricing": "One-time setup: $500, Annual recurring: $100/year"
+    }
+  },
+
+  "whatWeDoNotDo": [
+    {
+      "item": "Generic strategy platitudes",
+      "description": "We deliver actionable engineering, not slide-deck consulting."
+    },
+    {
+      "item": "Vaporware",
+      "description": "No proof-of-concept-only engagements. Everything we build ships to production."
+    },
+    {
+      "item": "Vendor lock-in",
+      "description": "We are model-agnostic and infrastructure-agnostic. Your technology stays yours."
+    },
+    {
+      "item": "Bloated enterprise contracts",
+      "description": "We do not write 6-figure minimums for small businesses. Our engagements scale with your reality."
+    }
+  ],
+
+  "comparison": {
+    "nolimitz": {
+      "tier1": "$850–$1,100",
+      "tier2": "$1,500–$1,800",
+      "tier3": "$4,000+",
+      "turnaround": "1–2 weeks",
+      "process": "AI-assisted, direct dev",
+      "communication": "Direct with developer",
+      "codeOwnership": "Full, delivered to you",
+      "bestFor": "Fast, clean, no fuss"
+    },
+    "typicalAgency": {
+      "tier1": "$2,000–$5,000",
+      "tier2": "$3,000–$8,000",
+      "tier3": "$10,000–$25,000+",
+      "turnaround": "4–8 weeks",
+      "process": "Account manager → designer → dev → QA",
+      "communication": "Multiple touchpoints",
+      "codeOwnership": "Sometimes held or licensed"
+    },
+    "freelancer": {
+      "tier1": "$500–$2,000",
+      "tier2": "$1,000–$4,000",
+      "tier3": "$3,000–$10,000",
+      "turnaround": "2–6 weeks",
+      "process": "One person wearing all hats",
+      "communication": "Direct, but bandwidth-limited",
+      "codeOwnership": "Usually delivered"
+    }
+  }
+}
