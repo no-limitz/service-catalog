@@ -2,30 +2,11 @@
   "meta": {
     "version": "1.0",
     "lastUpdated": "2026-07-20",
-    "classification": "Internal Reference — Source of Truth for Service Offerings",
     "branding": {
       "name": "No Limitz",
-      "legalName": "No Limitz LLC",
       "tagline": "Texas-built. Nationally deployed.",
       "motto": "Enterprise AI, Web & Cloud — Driven, Not Just Used.",
       "mission": "Where technical excellence meets human understanding, exponential growth becomes possible.",
-      "founders": [
-        {
-          "name": "Bobby Dean",
-          "role": "Founder"
-        },
-        {
-          "name": "Quenton Dean",
-          "role": "Father / Legacy Engineer"
-        }
-      ],
-      "locations": [
-        "Paradise, TX",
-        "Keller, TX"
-      ],
-      "timezone": "CT (UTC-6 / UTC-5)",
-      "responseTime": "< 1 business day",
-      "availability": "Q3 2026 — open",
       "contact": {
         "email": "info@nolimitz.io",
         "socials": {
@@ -37,40 +18,15 @@
       "experience": {
         "combinedYears": "20+",
         "cloudCertifications": "5+",
-        "certifications": ["AWS", "Azure", "Google Cloud", "Specialized AI/ML"],
-        "enterpriseClients": "Delta Faucet, Tech Mahindra, BORN Group, and other industry leaders"
+        "certifications": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Specialized AI/ML"
+        ]
       }
-    },
-    "process": {
-      "overview": "From first call to live in ~30 days",
-      "steps": [
-        {
-          "name": "Discover",
-          "timeline": "Day 0",
-          "description": "30-min call. No slides, no NDA needed. We listen, we sketch."
-        },
-        {
-          "name": "Scope",
-          "timeline": "Day 3",
-          "description": "Fixed-price proposal in 3 days. Clear deliverables, clear bounds."
-        },
-        {
-          "name": "Prototype",
-          "timeline": "Week 2",
-          "description": "Something real you can click on by week 2. Real data, real models."
-        },
-        {
-          "name": "Ship",
-          "timeline": "Week 3–4",
-          "description": "Production deploy with monitoring, docs, and handover to your team."
-        }
-      ],
-      "deposit": "50% deposit required to start",
-      "balance": "Remaining balance due on launch",
-      "warranty": "30-day post-launch bug fix window (no new features)"
     }
   },
-
   "services": [
     {
       "id": "ai-agents",
@@ -85,7 +41,11 @@
         {
           "name": "Personal & Edge Agents",
           "description": "Your own agentic AI — built for you. Edge-native agentic AI deployed on customer infrastructure with real-time inference and minimal latency.",
-          "platforms": ["OpenClaw", "Hermes Agent", "Anthropic Claude"],
+          "platforms": [
+            "OpenClaw",
+            "Hermes Agent",
+            "Anthropic Claude"
+          ],
           "deliverables": [
             "Personal AI assistant deployed on your own infrastructure",
             "Edge-first agents with sub-second response times",
@@ -97,7 +57,11 @@
         {
           "name": "Agentic Architecture & Hosting",
           "description": "Deploy agents that actually scale. Moving from an AI prototype to production-grade agentic systems requires serious infrastructure thinking.",
-          "platforms": ["Agentfield.ai", "AWS Bedrock & Agents", "Cloudflare Workers AI"],
+          "platforms": [
+            "Agentfield.ai",
+            "AWS Bedrock & Agents",
+            "Cloudflare Workers AI"
+          ],
           "deliverables": [
             "Multi-agent orchestration design and deployment",
             "Serverless agent hosting with auto-scaling",
@@ -109,7 +73,11 @@
         {
           "name": "AI Upskilling & Coaching",
           "description": "We are your human in the loop. Agentic AI is not replacing people — it is amplifying them.",
-          "platforms": ["Executive AI Fluency", "Developer Upskilling", "Business Leader Workshops"],
+          "platforms": [
+            "Executive AI Fluency",
+            "Developer Upskilling",
+            "Business Leader Workshops"
+          ],
           "deliverables": [
             "1-on-1 executive AI coaching sessions",
             "Team workshops on agentic AI use cases",
@@ -505,7 +473,6 @@
       ]
     }
   ],
-
   "products": [
     {
       "id": "wavemaker",
@@ -590,14 +557,6 @@
         "Admin and resident dashboards",
         "Action forms and document lifecycle management"
       ],
-      "techStack": ["Next.js", "TypeScript", "Postgres", "Stripe", "Cloudflare"],
-      "promotions": [
-        {
-          "description": "100% OFF — Get 3 months FREE when you sign up before July 31, 2026",
-          "code": "SOFTLAUNCH",
-          "endDate": "2026-07-31"
-        }
-      ],
       "proves": "Community-facing product development and multi-tenant architecture"
     },
     {
@@ -673,15 +632,9 @@
       ]
     }
   ],
-
   "pricing": {
     "webApps": {
       "description": "Fixed pricing per project. AI-assisted development. Fast turnaround. No bloat, no surprises.",
-      "referenceProjects": [
-        "dtvalveandsupply.com",
-        "reclaimgarage.com",
-        "wfarc.org"
-      ],
       "tiers": [
         {
           "name": "Tier 1 — Essential Site",
@@ -692,7 +645,6 @@
             "currency": "USD",
             "type": "fixed"
           },
-          "turnaround": "1–2 weeks",
           "description": "A simple, clean, online presence. Good for businesses that need to look legitimate and be found.",
           "included": [
             "Single-page or 3–5 page static site (Home, About, Services, Contact)",
@@ -740,17 +692,26 @@
             },
             {
               "name": "Content writing (all pages)",
-              "price": { "min": 250, "max": 500 },
+              "price": {
+                "min": 250,
+                "max": 500
+              },
               "unit": "flat"
             },
             {
               "name": "Logo / brand refresh",
-              "price": { "min": 150, "max": 400 },
+              "price": {
+                "min": 150,
+                "max": 400
+              },
               "unit": "flat"
             },
             {
               "name": "Performance hardening (Lighthouse 100)",
-              "price": { "min": 150, "max": 300 },
+              "price": {
+                "min": 150,
+                "max": 300
+              },
               "unit": "flat"
             },
             {
@@ -760,12 +721,18 @@
             },
             {
               "name": "Hosting setup and configuration (1 year)",
-              "price": { "setup": 150, "note": "plus hosting costs" },
+              "price": {
+                "setup": 150,
+                "note": "plus hosting costs"
+              },
               "unit": "flat"
             },
             {
               "name": "Chatbot / AI Contact Assistant",
-              "price": { "setup": 500, "annual": 100 },
+              "price": {
+                "setup": 500,
+                "annual": 100
+              },
               "unit": "setup + annual"
             }
           ]
@@ -779,7 +746,6 @@
             "currency": "USD",
             "type": "fixed"
           },
-          "turnaround": "1–2 weeks",
           "description": "Same as Essential, but with a CMS so the client can update their own content without touching code.",
           "includesTier1": true,
           "included": [
@@ -812,17 +778,26 @@
             },
             {
               "name": "Custom content types with unique layouts",
-              "price": { "min": 250, "max": 500 },
+              "price": {
+                "min": 250,
+                "max": 500
+              },
               "unit": "flat"
             },
             {
               "name": "Content writing (all pages + 5 blog posts)",
-              "price": { "min": 500, "max": 1000 },
+              "price": {
+                "min": 500,
+                "max": 1000
+              },
               "unit": "flat"
             },
             {
               "name": "Multi-language support",
-              "price": { "min": 300, "max": 600 },
+              "price": {
+                "min": 300,
+                "max": 600
+              },
               "unit": "flat"
             },
             {
@@ -832,12 +807,18 @@
             },
             {
               "name": "Analytics + dashboard (GA4, Looker Studio)",
-              "price": { "min": 200, "max": 400 },
+              "price": {
+                "min": 200,
+                "max": 400
+              },
               "unit": "flat"
             },
             {
               "name": "Performance hardening (Lighthouse 100)",
-              "price": { "min": 200, "max": 400 },
+              "price": {
+                "min": 200,
+                "max": 400
+              },
               "unit": "flat"
             },
             {
@@ -847,7 +828,10 @@
             },
             {
               "name": "Hosting setup and configuration (1 year)",
-              "price": { "setup": 150, "note": "plus hosting costs" },
+              "price": {
+                "setup": 150,
+                "note": "plus hosting costs"
+              },
               "unit": "flat"
             }
           ]
@@ -861,7 +845,6 @@
             "type": "custom",
             "note": "Custom quote after scoping call"
           },
-          "turnaround": "Custom",
           "description": "Custom web functionality for organizations that need more than a marketing site. Not a SaaS product — a tailored tool for a specific community or group.",
           "included": [
             "Multi-section site with rich content",
@@ -893,42 +876,66 @@
           "addOns": [
             {
               "name": "Complex custom API integrations (beyond base scope)",
-              "price": { "min": 500, "max": 1500 },
+              "price": {
+                "min": 500,
+                "max": 1500
+              },
               "unit": "flat"
             },
             {
               "name": "User dashboard / member portal",
-              "price": { "min": 500, "max": 2000 },
+              "price": {
+                "min": 500,
+                "max": 2000
+              },
               "unit": "flat"
             },
             {
               "name": "Payment / donation integration",
-              "price": { "min": 300, "max": 800 },
+              "price": {
+                "min": 300,
+                "max": 800
+              },
               "unit": "flat"
             },
             {
               "name": "Email / SMS notifications via API",
-              "price": { "min": 250, "max": 500 },
+              "price": {
+                "min": 250,
+                "max": 500
+              },
               "unit": "flat"
             },
             {
               "name": "Custom animations / micro-interactions",
-              "price": { "min": 200, "max": 600 },
+              "price": {
+                "min": 200,
+                "max": 600
+              },
               "unit": "flat"
             },
             {
               "name": "Content writing (site copy + 10 posts/resources)",
-              "price": { "min": 750, "max": 1500 },
+              "price": {
+                "min": 750,
+                "max": 1500
+              },
               "unit": "flat"
             },
             {
               "name": "Multi-language support",
-              "price": { "min": 500, "max": 1000 },
+              "price": {
+                "min": 500,
+                "max": 1000
+              },
               "unit": "flat"
             },
             {
               "name": "Performance hardening (Lighthouse 100)",
-              "price": { "min": 300, "max": 600 },
+              "price": {
+                "min": 300,
+                "max": 600
+              },
               "unit": "flat"
             },
             {
@@ -938,7 +945,10 @@
             },
             {
               "name": "Hosting setup and configuration (1 year)",
-              "price": { "setup": 200, "note": "plus hosting costs" },
+              "price": {
+                "setup": 200,
+                "note": "plus hosting costs"
+              },
               "unit": "flat"
             }
           ]
@@ -955,43 +965,12 @@
         "Third-party service accounts (email, analytics, payment processors) provided by customer"
       ],
       "comparison": {
-        "tiers": {
-          "tier1": {
-            "nolimitz": "$850–$1,100",
-            "typicalAgency": "$2,000–$5,000",
-            "freelancer": "$500–$2,000"
-          },
-          "tier2": {
-            "nolimitz": "$1,500–$1,800",
-            "typicalAgency": "$3,000–$8,000",
-            "freelancer": "$1,000–$4,000"
-          },
-          "tier3": {
-            "nolimitz": "$4,000+",
-            "typicalAgency": "$10,000–$25,000+",
-            "freelancer": "$3,000–$10,000"
-          }
-        },
-        "turnaround": {
-          "nolimitz": "1–2 weeks",
-          "typicalAgency": "4–8 weeks",
-          "freelancer": "2–6 weeks"
-        },
-        "process": {
-          "nolimitz": "AI-assisted, direct dev",
-          "typicalAgency": "Account manager → designer → dev → QA",
-          "freelancer": "One person wearing all hats"
-        },
-        "communication": {
-          "nolimitz": "Direct with developer",
-          "typicalAgency": "Multiple touchpoints",
-          "freelancer": "Direct, but bandwidth-limited"
-        },
-        "codeOwnership": "Full, delivered to you"
+        "nolimitz": "Fast, clean, AI-assisted, direct dev, full code ownership",
+        "typicalAgency": "4-8 weeks, account manager -> designer -> dev -> QA",
+        "freelancer": "2-6 weeks, one person wearing all hats"
       }
     }
   },
-
   "hosting": {
     "description": "Monthly hosted maintenance plans. We handle hosting, monitoring, updates, backups, and performance. You just own the site — we keep it running.",
     "plans": [
@@ -1058,7 +1037,10 @@
       {
         "name": "Weekly/monthly content updates",
         "setup": 0,
-        "hourlyRate": { "min": 25, "max": 50 },
+        "hourlyRate": {
+          "min": 25,
+          "max": 50
+        },
         "type": "hourly beyond Managed plan"
       },
       {
@@ -1104,7 +1086,6 @@
       ]
     }
   },
-
   "addOns": [
     {
       "name": "Additional pages (beyond 5 in Tier 1)",
@@ -1127,25 +1108,37 @@
     {
       "name": "Advanced SEO",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 300, "max": 400 },
+      "priceRange": {
+        "min": 300,
+        "max": 400
+      },
       "description": "Keyword research, schema audit"
     },
     {
       "name": "Content writing",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 250, "max": 1500 },
+      "priceRange": {
+        "min": 250,
+        "max": 1500
+      },
       "description": "Varies by tier and scope. Site copy + blog posts/resources."
     },
     {
       "name": "Logo / brand refresh",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 150, "max": 400 },
+      "priceRange": {
+        "min": 150,
+        "max": 400
+      },
       "unit": "flat"
     },
     {
       "name": "Performance hardening (Lighthouse 100)",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 150, "max": 600 },
+      "priceRange": {
+        "min": 150,
+        "max": 600
+      },
       "description": "Varies by tier"
     },
     {
@@ -1157,19 +1150,28 @@
     {
       "name": "Hosting setup and configuration (1 year)",
       "serviceCategory": "web-apps",
-      "priceRange": { "setup": 150, "note": "plus hosting costs" },
+      "priceRange": {
+        "setup": 150,
+        "note": "plus hosting costs"
+      },
       "description": "Tier 1–2: $150 setup, Tier 3: $200 setup"
     },
     {
       "name": "Chatbot / AI Contact Assistant",
       "serviceCategory": "web-apps",
-      "price": { "setup": 500, "annual": 100 },
+      "price": {
+        "setup": 500,
+        "annual": 100
+      },
       "description": "Smart website chatbot grounded in company's own content"
     },
     {
       "name": "Custom content types with unique layouts",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 250, "max": 500 },
+      "priceRange": {
+        "min": 250,
+        "max": 500
+      },
       "unit": "flat"
     },
     {
@@ -1181,43 +1183,64 @@
     {
       "name": "Multi-language support",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 300, "max": 1000 },
+      "priceRange": {
+        "min": 300,
+        "max": 1000
+      },
       "description": "Varies by tier"
     },
     {
       "name": "User dashboard / member portal",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 500, "max": 2000 },
+      "priceRange": {
+        "min": 500,
+        "max": 2000
+      },
       "unit": "flat"
     },
     {
       "name": "Payment / donation integration",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 300, "max": 800 },
+      "priceRange": {
+        "min": 300,
+        "max": 800
+      },
       "unit": "flat"
     },
     {
       "name": "Email / SMS notifications via API",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 250, "max": 500 },
+      "priceRange": {
+        "min": 250,
+        "max": 500
+      },
       "unit": "flat"
     },
     {
       "name": "Custom animations / micro-interactions",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 200, "max": 600 },
+      "priceRange": {
+        "min": 200,
+        "max": 600
+      },
       "unit": "flat"
     },
     {
       "name": "Complex custom API integrations",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 500, "max": 1500 },
+      "priceRange": {
+        "min": 500,
+        "max": 1500
+      },
       "unit": "flat"
     },
     {
       "name": "Analytics + dashboard (GA4, Looker Studio)",
       "serviceCategory": "web-apps",
-      "priceRange": { "min": 200, "max": 400 },
+      "priceRange": {
+        "min": 200,
+        "max": 400
+      },
       "unit": "flat"
     },
     {
@@ -1247,11 +1270,13 @@
     {
       "name": "Content updates (beyond Managed plan hours)",
       "serviceCategory": "hosting",
-      "hourlyRate": { "min": 25, "max": 50 },
+      "hourlyRate": {
+        "min": 25,
+        "max": 50
+      },
       "unit": "hourly"
     }
   ],
-
   "chatbotPricing": {
     "aiContactAssistant": {
       "name": "Chatbot / AI Contact Assistant",
@@ -1261,7 +1286,6 @@
       "pricing": "One-time setup: $500, Annual recurring: $100/year"
     }
   },
-
   "whatWeDoNotDo": [
     {
       "item": "Generic strategy platitudes",
@@ -1280,7 +1304,6 @@
       "description": "We do not write 6-figure minimums for small businesses. Our engagements scale with your reality."
     }
   ],
-
   "comparison": {
     "nolimitz": {
       "tier1": "$850–$1,100",
